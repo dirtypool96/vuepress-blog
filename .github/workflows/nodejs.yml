@@ -25,8 +25,8 @@ jobs:
       - name: List output files
         run: ls -a docs/.vuepress/dist # 显示生成的目录文件
       
-      - run: git add .
-      - run: git commit -m 
+      - run: git status -uno -u
+      - run: git stash
 
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@3.0.0
