@@ -21,7 +21,7 @@ tags:
 
 ::: tip 提示
 
-查看此文档前应先了解，[vuepress 基本操作](https://tsanfer.xyz/views/frontEnd/VuePress%20+%20GithubPages%20+%20TravisCI%20.html#%E6%9C%80%E7%BB%88%E6%95%88%E6%9E%9C)
+查看此文档前应先了解，[vuepress的基本操作](https://tsanfer.xyz/views/frontEnd/VuePress%20+%20GithubPages%20+%20TravisCI%20.html#%E6%9C%80%E7%BB%88%E6%95%88%E6%9E%9C)
 
 :::
 
