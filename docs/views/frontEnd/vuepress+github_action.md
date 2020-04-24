@@ -239,6 +239,8 @@ module.exports = {
 ::: tip 提示
 
 [参考 vuepress-theme-reco](https://vuepress-theme-reco.recoluan.com/views/other/github-actions.html)
+[参考 ECS服务器搭建FTP](https://help.aliyun.com/document_detail/92048.html?spm=5176.13910061.0.0.71136085eXqzPw&aly_as=LzLimxcBD#section-t9a-ors-44c)
+
 
 :::
 
