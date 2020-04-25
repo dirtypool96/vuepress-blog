@@ -64,10 +64,8 @@ module.exports = {
     ],
     // 评论设置
     valineConfig: {
-      el:'#vcomments',
-      visitor: true,
-      "appId": process.env.LEANCLOUD_APP_ID,
-      "appKey": process.env.LEANCLOUD_APP_KEY
+      appId: process.env.LEANCLOUD_APP_ID,
+      appKey: process.env.LEANCLOUD_APP_KEY
     }
   },
 
@@ -82,6 +80,7 @@ module.exports = {
   plugins: [
     ["vuepress-plugin-smooth-scroll"], // 平滑滚动
     ["@vuepress/nprogress"], // 加载进度条
-    ["reading-progress"] // 阅读进度条
+    ["reading-progress"], // 阅读进度条
+    ["vuepress-plugin-code-copy", true]
   ]
 };
