@@ -301,4 +301,6 @@ jobs:
 
 最后再把代码上传到 Github 便可自动触发构建，部署到第三方服务器
 
-> 本文由[李俊乐-网络日志](https://dirtypool.top) 发布！
+> 转载于[Tsanfer's Blog](https://tsanfer.xyz/views/frontEnd/vuepress_theme_reco-Github_Actions.html)
+> 
+> 本文由[李俊乐-网络日志](https://dirtypool.top) 发布
