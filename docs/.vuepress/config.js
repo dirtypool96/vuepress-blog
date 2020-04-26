@@ -67,16 +67,17 @@ module.exports = {
       appId: process.env.LEANCLOUD_APP_ID,
       appKey: process.env.LEANCLOUD_APP_KEY,
       visitor: true,
+      avatar: 'DirtyPool',
       placeholder: '如未及时回复可用邮箱嗷'
     }
   },
 
-  "markdown": {
-    "lineNumbers": true //代码显示行号
+  markdown: {
+    lineNumbers: true //代码显示行号
   },
   // 搜索设置
-  "search": true,
-  "searchMaxSuggestions": 10,
+  search: true,
+  searchMaxSuggestions: 10,
 
   // 插件
   plugins: [
