@@ -65,7 +65,9 @@ module.exports = {
     // 评论设置
     valineConfig: {
       appId: process.env.LEANCLOUD_APP_ID,
-      appKey: process.env.LEANCLOUD_APP_KEY
+      appKey: process.env.LEANCLOUD_APP_KEY,
+      visitor: true,
+      placeholder: '如未及时回复可用邮箱嗷'
     }
   },
 
