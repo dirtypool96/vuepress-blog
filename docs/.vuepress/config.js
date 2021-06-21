@@ -1,27 +1,16 @@
 // docs/.vuepress/config.js
 
 module.exports = {
-  // host: '0.0.0.0',  // 生成网页地址（本地调试使用）
-  // port: '22335',  // 生成网页端口（本地调试使用）
+  "dest": blog,
   "title": "DirtyPool's Blog", // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
-  "description": "DirtyPool Blog", // meta 中的描述文字，用于SEO
+  "description": "李俊乐 网络日志", // meta 中的描述文字，用于SEO
   "head": [
     ["link", { "rel": "icon", "href": "/favicon.ico" }], //浏览器的标签栏的网页图标,基地址/docs/.vuepress/public
-    [
-      "meta",
-      {
-        "name": "viewport",
-        "content": "width=device-width,initial-scale=1,user-scalable=no"
-      }
-    ] //在移动端，搜索框在获得焦点时会放大
+    ["meta", { "name": "viewport", "content": "width=device-width,initial-scale=1,user-scalable=no" } ] //在移动端，搜索框在获得焦点时会放大
   ],
 
   "theme": "reco", //选择主题‘reco’
-  locales: {
-    '/': {
-      lang: 'zh-CN'
-    }
-  },
+  locales: { '/': { lang: 'zh-CN' } },
   "themeConfig": {
     "type": "blog", //选择类型博客
     "sidebar": "auto", //在所有页面中启用自动生成侧栏
