@@ -1,11 +1,11 @@
 ---
 title: 二、Webpack核心概念
-date: 2021-11-30
+date: 2020-11-30
 sidebar: "auto"
 categories:
-  - webpack
+  - Webpack
 tags:
-  - webpack
+  - Webpack
 ---
 
 ::: tip

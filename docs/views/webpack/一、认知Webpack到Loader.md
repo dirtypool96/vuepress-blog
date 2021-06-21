@@ -3,9 +3,9 @@ title: 一、认知Webpack到Loader
 date: 2020-11-11
 sidebar: "auto"
 categories:
-  - webpack
+  - Webpack
 tags:
-  - webpack
+  - Webpack
 ---
 
 ::: tip
