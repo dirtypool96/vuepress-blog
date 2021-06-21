@@ -1,6 +1,6 @@
 ---
 title: 一、认知Webpack到Loader
-date: 2021-01-20
+date: 2020-11-11
 sidebar: "auto"
 categories:
   - webpack
@@ -15,7 +15,7 @@ tags:
 :::
 
 <!-- more -->
-## 一、Webpack初步认知
+## 一、webpack初步认知
 
 模块打包工具
 
@@ -206,4 +206,4 @@ webpack-cli用于命令行webpack命令
 
 4. 效果：只有`index.js`中的`css`起到了效果，`class`为`img`的没有生效
 
-![image-20201020201830690](res/image-20201020201830690.png)
+    ![](res/image-20201020201830690.png)
