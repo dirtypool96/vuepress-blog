@@ -84,7 +84,7 @@ module.exports = {
     ["reading-progress"], // 阅读进度条
     ["vuepress-plugin-code-copy", true],
     ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
-        width: '300px', // 默认 260px
+        width: '350px', // 默认 260px
         title: '消息提示',
         body: [
           {

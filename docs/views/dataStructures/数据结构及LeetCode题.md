@@ -24,7 +24,7 @@ tags:
 
 - 函数调用堆栈、字符串括号有效性、十进制转二进制
 
-<img src="res/2019-06-01-043732.png" alt="img" style="zoom:50%;" />
+  <img src="../../.vuepress/public/2019-06-01-043732.png" style="zoom:50%;" />
 
 ### 1）实现
 
@@ -154,7 +154,7 @@ RecentCounter.prototype.ping = function(t) {
 
 链表是一个线性结构，同时也是一个天然的递归结构。链表结构可以充分利用计算机内存空间，实现灵活的内存动态管理。但是链表失去了数组随机读取的优点，同时链表由于增加了结点的指针域，空间开销比较大。
 
-![img](res/2019-06-01-043733.png)
+![](../../.vuepress/public/2019-06-01-043733.png)
 
 ### 1）LeetCode 206 一个单向链表反转
 
@@ -337,7 +337,7 @@ path.forEach( k => {
 
 这种存储方式很适合于**数据搜索**。
 
-<img src="res/2019-06-01-043735.png" alt="img" style="zoom:50%;" />
+<img src="../../.vuepress/public/2019-06-01-043735.png" style="zoom:50%;" />
 
 ### 3）遍历
 
