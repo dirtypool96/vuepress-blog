@@ -10,6 +10,7 @@
     "vuepress-theme-reco": "^1.4.5"
   },
   "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.0",
     "vuepress-plugin-code-copy": "^1.0.6"
   }
 }

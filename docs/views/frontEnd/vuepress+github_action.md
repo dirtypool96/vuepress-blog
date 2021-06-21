@@ -3,7 +3,7 @@ title: vuepress-theme-reco + Github Actions 构建静态博客，部署到第三
 date: 2020-04-23
 sidebar: "auto"
 categories:
-  - vue
+  - VuePress
 tags:
   - VuePress
   - Github

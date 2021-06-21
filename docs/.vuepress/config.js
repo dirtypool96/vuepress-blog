@@ -46,20 +46,18 @@ module.exports = {
       { "text": "主页", "link": "/", "icon": "reco-home" },
       { "text": "时间线", "link": "/timeline/", "icon": "reco-date" },
       {
-        "text": "联系",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "Mail",
-            "link": "mailto:dirtypool@foxmail.com",
-            "icon": "reco-mail"
-          },
-          {
+        "text": "代码仓",
+        "icon": "reco-api",
+        "items": [{
             "text": "GitHub",
             "link": "https://github.com/dirtypool96",
             "icon": "reco-github"
-          }
-        ]
+          },
+          {
+            "text": "Gitte",
+            "link": "https://gitee.com/dirtypool",
+            "icon": "reco-mayun"
+          }]
       }
     ],
     // 评论设置
@@ -68,7 +66,7 @@ module.exports = {
       appKey: process.env.LEANCLOUD_APP_KEY,
       visitor: true,
       avatar: 'DirtyPool',
-      placeholder: '如未及时回复可用邮箱嗷'
+      placeholder: '如未及时回复请用邮箱嗷'
     }
   },
 
@@ -84,6 +82,27 @@ module.exports = {
     ["vuepress-plugin-smooth-scroll"], // 平滑滚动
     ["@vuepress/nprogress"], // 加载进度条
     ["reading-progress"], // 阅读进度条
-    ["vuepress-plugin-code-copy", true]
+    ["vuepress-plugin-code-copy", true],
+    ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
+        width: '300px', // 默认 260px
+        title: '消息提示',
+        body: [
+          {
+            type: 'title',
+            content: '笔者积极准备并寻找一个新的工作环境，有意请联系',
+            style: 'text-aligin: center;'
+          },
+          {
+            type: 'text',
+            content: 'WeChat: dirtypool',
+            style: 'text-aligin: center;'
+          },
+          {
+            type: 'text',
+            content: 'E-Mail: dirtypool@foxmail.com',
+            style: 'text-aligin: center;'
+          }
+        ]
+      }]
   ]
 };
