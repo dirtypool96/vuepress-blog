@@ -2,7 +2,7 @@
 
 module.exports = {
   "title": "DirtyPool's Blog", // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
-  "description": "李俊乐 网络日志", // meta 中的描述文字，用于SEO
+  "description": "李俊乐's 网络日志", // meta 中的描述文字，用于SEO
   "head": [
     ["link", { "rel": "icon", "href": "/favicon.ico" }], //浏览器的标签栏的网页图标,基地址/docs/.vuepress/public
     ["meta", { "name": "viewport", "content": "width=device-width,initial-scale=1,user-scalable=no" } ] //在移动端，搜索框在获得焦点时会放大
