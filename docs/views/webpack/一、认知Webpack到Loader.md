@@ -152,7 +152,7 @@ webpack-cli用于命令行webpack命令
 
 4. 效果：
 
-![image-20201020180556759](res/image-20201020180556759.png)
+![image-20201020180556759](../../.vuepress/public/image-20201020180556759.png)
 
 #### 2.2.3 `CSS`的模块化
 
